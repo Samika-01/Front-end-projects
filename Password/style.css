@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    margin:0 ;
+    
+    width: 300px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+input{
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    width: 100%;
+    
+}
+.eye-icon{
+    position:absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+
+}
+label{
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+}
