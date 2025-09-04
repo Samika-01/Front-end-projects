@@ -1,0 +1,42 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: black;
+
+}
+
+#container{
+   padding: 20px; 
+   border: 1px solid #4c3838;
+   border-radius: 4px;
+   background-color: rgb(185, 201, 215);
+   
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#check{
+    cursor: pointer;
+
+}
+
+#check:hover{
+    background-color: rgb(102, 166, 145);
+
+}
+
+#result{
+    padding: 20px;
+}
