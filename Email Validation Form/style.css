@@ -1,0 +1,43 @@
+
+body{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container{
+    border: 2px solid rgb(129, 216, 139);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px ;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#email{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(77, 192, 158);
+}
